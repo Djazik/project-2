@@ -1,0 +1,131 @@
+.menu__wrapper {
+  margin: 20px 0;
+}
+
+.menu {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu__title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 20%;
+  text-align: center;
+  color: rgba(220, 120, 11, 1);
+  padding-bottom: 10px;
+}
+
+.menu__text {
+  font-weight: 700;
+  font-size: 31.25px;
+  line-height: 24px;
+  color: rgba(21, 12, 1, 1);
+  padding-bottom: 25px;
+}
+
+.menu_long__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  width: 748px;
+}
+
+.pr__cart {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.product__cart {
+  width: 360px;
+}
+
+.product__img {
+  width: 458px;
+  display: flex;
+  padding-bottom: 21px;
+}
+
+.product__img img {
+  width: 79.5%;
+  object-fit: cover;
+  border-radius: 76px 10px 76px 0px;
+  border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.product__title {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 21px;
+}
+
+.pr__title {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 24px;
+  color: rgba(21, 12, 1, 1);
+}
+
+.product__title p {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 24px;
+  color: rgba(21, 12, 1, 1);
+}
+
+.pr__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(21, 12, 1, 0.378);
+  text-align: center;
+}
+
+.pr__icon {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pr__btn_icon {
+  padding: 12px;
+  border-radius: 10px;
+  color: rgba(220, 120, 11, 1);
+}
+
+.pr__btn_icon:hover {
+  padding: 12px;
+  background-color: rgba(220, 120, 11, 1);
+  color: #fff;
+}
+
+.product__edit {
+    padding: 21px 40px;
+    color: rgba(220, 120, 11, 1);
+    font-size: 16px;
+    line-height: 18.75px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.product__edit:hover {
+    padding: 21px 40px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    line-height: 18.75px;
+    font-weight: 500;
+    background-color: rgba(220, 120, 11, 1);
+}
+.pr__edit {
+    display: flex;
+justify-content: space-between;
+padding: 20px 0;}

@@ -1,0 +1,52 @@
+.contact__wrapper {
+    background-color: rgb(255, 223, 229);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 115px 0;
+    gap: 25px;
+}
+
+.contact__wrapper h2 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.75px;
+    letter-spacing: 5px;
+    color: rgba(220, 120, 11, 1);
+}
+
+.contact__wrapper h3 {
+    font-weight: 700;
+    font-size: 31.25px;
+    line-height: 40.6px;
+    color: rgba(21, 12, 1, 1);
+    width: 749px;
+    text-align: center;
+}
+
+
+.contact__input {
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+}
+
+
+.contact__input input {
+    padding: 20px;
+}
+
+.contact__input button {
+    padding: 20px 57px;
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(220, 120, 11, 1);
+}
+
+.send__btn {
+    display: flex;
+}
+

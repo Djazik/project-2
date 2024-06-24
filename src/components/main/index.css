@@ -1,0 +1,47 @@
+.mk__wrapper {
+  display: flex;
+}
+.making__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  justify-content: center;
+}
+
+.making__btn {
+  display: flex;
+  gap: 30px;
+}
+
+.mk__title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 57px;
+  color: rgba(21, 12, 1, 1);
+}
+
+.mk__text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(21, 12, 1, 0.54);
+}
+
+.mk__btn {
+    padding: 21px 40px;
+    color: rgba(220, 120, 11, 1);
+    font-size: 16px;
+    line-height: 18.75px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.mk__btn:hover {
+    padding: 21px 40px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    line-height: 18.75px;
+    font-weight: 500;
+    background-color: rgba(220, 120, 11, 1);
+}
